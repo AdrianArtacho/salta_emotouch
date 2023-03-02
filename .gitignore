@@ -58,3 +58,6 @@ input/*
 # Ignore all the contents of a folder, but keep empy folder structure
 output/*
 !output/.gitkeep
+
+# Ignore all the contents of a folder, but keep empy folder structure
+wip/*

@@ -1,29 +1,15 @@
-# README #
+# EmoTouch™ scripts
 
-This README would normally document whatever steps are necessary to get your application up and running.
+Here are some pzthon scripts to parse the output data from the EmoTouch web application.
 
-### What is this repository for? ###
+---
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## Usage
 
-### How do I get set up? ###
+The files to be processed must be in the folder `input` (whose content is't uploaded to the repo, but keeps the file structure).
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+Specifically the files are the **Zeitreihendaten** in **csv** format.
 
-### Contribution guidelines ###
+- activate venv
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+- 
