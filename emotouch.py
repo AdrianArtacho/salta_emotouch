@@ -3,6 +3,7 @@ import matplotlib.pyplot as pyplot
 import time
 # from pathlib import Path
 import gui_abstractions.gui_choosefile as gui_choosefile
+import os
 
 # VARIABLES-----------------
 add_time_labels = False
@@ -14,14 +15,14 @@ file_chosen = gui_choosefile.main(['title',       # params_title
                                   '.csv'])        # params_extensions
 
 input_file = file_chosen
-# print('input_file:', input_file)
+print('input_file:', input_file)
 # quit()
 
 df = pd.read_csv(input_file, sep='\t', usecols= ['x','y', 'type','created_at_relative', 'object'])
 
 print("Rows, columns", df.shape)
 # print(df)
-print(len(df.columns))
+# print(len(df.columns))
 
 # print(df.iloc[:5])          # head
 
@@ -40,7 +41,18 @@ for index, row in df.iterrows():
 
 sf = pd.concat([sf, pd.DataFrame(tmp)], axis=0, ignore_index=True)      # concatenate after loop
 
-output_path = 'output/Unbenannt.csv'
+# generate output name
+head_tail = os.path.split(input_file)
+tail = head_tail[1]
+# print('tail:', tail)
+
+tail_noext = tail.replace(".csv", "")
+tail_nopoints = tail_noext.replace(".", "_" )
+tail_nospaces = tail_nopoints.replace(" ", "_" )
+# print('stem:', tail_nospaces)
+
+# quit()
+output_path = 'output/'+ tail_nospaces + '.csv'
 
 sf.to_csv(output_path, index=False)
 
@@ -81,9 +93,9 @@ pyplot.xlabel(string_xlabel)
 pyplot.title('Estimated segments: '+str('?'), fontdict=None, loc='center', pad=None)
 pyplot.yticks([])
 
-stem_name = 'Unbennant'
-print(stem_name)
-pyplot.savefig('output/'+stem_name+'_segments.png')
+# stem_name = 'Unbennant'
+# print(stem_name)
+pyplot.savefig('output/'+tail_nospaces+'_segments.png')
 
 print("done!")
  
