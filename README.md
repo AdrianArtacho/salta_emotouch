@@ -21,3 +21,7 @@ Specifically the files are the **Zeitreihendaten** in **csv** format.
     ```shell
     python emotouch.py
     ```
+
+1. Choose `emoTouch` file to process (`TAB`, then click on file).
+
+1. The resulting `.csv` file, and the respective plot will be saved in the `output/` folder.
