@@ -10,6 +10,14 @@ The files to be processed must be in the folder `input/` (whose content is't upl
 
 Specifically the files are the **Zeitreihendaten** in **csv** format.
 
-- activate venv
+1. Activate virtual environment.
 
-- 
+    ```shell
+    source .venv/bin/activate
+    ```
+
+1. Run main script:
+
+    ```shell
+    python emotouch.py
+    ```

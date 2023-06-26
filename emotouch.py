@@ -2,10 +2,20 @@ import pandas as pd
 import matplotlib.pyplot as pyplot
 import time
 # from pathlib import Path
+import gui_abstractions.gui_choosefile as gui_choosefile
 
+# VARIABLES-----------------
 add_time_labels = False
-
 input_file = "input/emoTouch_Unbenannt_timeline_data_v1.6.1.csv"
+#---------------------------
+
+file_chosen = gui_choosefile.main(['title',       # params_title
+                                  'input/',        # params_initbrowser
+                                  '.csv'])        # params_extensions
+
+input_file = file_chosen
+# print('input_file:', input_file)
+# quit()
 
 df = pd.read_csv(input_file, sep='\t', usecols= ['x','y', 'type','created_at_relative', 'object'])
 
