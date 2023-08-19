@@ -1,6 +1,6 @@
 # Segmentation Study
 
-Here are some python scripts to parse the output data from the EmoTouch web application.
+Documenting the design and process of the perceptual study on segmentation using (primarily) EmoTouch.
 
 ---
 
@@ -17,9 +17,9 @@ Here are some python scripts to parse the output data from the EmoTouch web appl
 
 [WIS Manager](https://manager.services.wassa.io/task-manager)
 
-- [ ] Upload video to Wassa as a anonymization task
+- [x] Upload video to Wassa as a anonymization task
 
-- [ ] Download anonymized video
+- [x] Download anonymized video
 
 - [ ] Normalize/substitute audio
 
@@ -44,26 +44,40 @@ It would be helpful to have gif(s) on the first page, explaining what a 'choreom
 ## Text
 
 ```markdown
-# Segmentation Study
+# PART1
 
-Welcome to this temporal segmentation study, 
-where the goal is to identify the different 
-choreomusical sequences (movement + music) 
-that make up the performance.
+## Perceptual Study
 
+Welcome to this perceptual study on temporal segmentation, 
+which means we attempt to identify the different sequences 
+(segments, blocks, parts) that make up a specific dance or 
+music performance.
+ 
+Later we will go into a more detailed explanation of 
+what those so-called segments can be, but basically
+we will ask you to watch a short video (under 5 minutes)
+while tapping on `button on screen` each time you feel
+there is a moment of transition between two movement sequences.
 
-We ask you to watch a short video (under 5 minutes)
-and tap on the `tap button` each time you identify 
-a transition: the moment where a choreomusical sequence
-(movement + music) ends, and the next one begins.
-
-## Agreement
+### Agreement
 
 The data generated in during this experiment will be 
 used exclusively for research purposes. No personal 
 information is recorded or stored anywhere.
 
-Each sequence can be from very short (jsut a few seconds) 
+`agree and continue`
+
+---
+
+# PART2
+
+## Demographic information
+
+This part is just made up to two questions about you. 
+This information is only for statistical purposes.
+
+
+Each sequence can be from very short (just a few seconds) 
 to moderately long (under a minute) --depending on the piece--
 so follow your intuition and click the `tap button` whenever
 you feel that a sequence ended.
