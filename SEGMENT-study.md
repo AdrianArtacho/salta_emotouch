@@ -21,9 +21,9 @@ Documenting the design and process of the perceptual study on segmentation using
 
 - [x] Download anonymized video
 
-- [ ] Normalize/substitute audio
+- [x] Normalize/substitute audio
 
-- [ ] Store away in the corresponding (RAW) GDrive folder
+- [x] Store away in the corresponding (RAW) GDrive folder
 
 ---
 
@@ -48,11 +48,11 @@ It would be helpful to have gif(s) on the first page, explaining what a 'choreom
 
 ## Perceptual Study
 
-Welcome to this perceptual study on temporal segmentation, 
+Welcome to this Ytansitions perceptual study on temporal segmentation, 
 which means we attempt to identify the different sequences 
 (segments, blocks, parts) that make up a specific dance or 
 music performance.
- 
+
 Later we will go into a more detailed explanation of 
 what those so-called segments can be, but basically
 we will ask you to watch a short video (under 5 minutes)
@@ -76,12 +76,89 @@ information is recorded or stored anywhere.
 This part is just made up to two questions about you. 
 This information is only for statistical purposes.
 
+`1. Could you tell us your age range?`
+
+`2. What gender do you identify with?`
+
+`submit demographic data and continue`
+
+--- 
+
+# PART3
+
+## Tell us about your music/dance backgrounds...
+
+From 1 ("no particular training or experience") 
+to 7 ("I am a trained/professional musician"), 
+how would you describe your competence in the discipline of music?
+
+From 1 ("no particular training or experience") 
+to 7 ("I am a trained/profesional dancer), 
+how would you describe your competence in the discipline of dance?
+
+`Submit answers and start study`
+
+---
+
+# PART4
+
+## How to spot a sequence
 
 Each sequence can be from very short (just a few seconds) 
 to moderately long (under a minute) --depending on the piece--
 so follow your intuition and click the `tap button` whenever
-you feel that a sequence ended.
+you feel there is a transition moment betwenn --what could be--
+a sequence and the next.
+
+
+# PART5
+
+## Transitional moments
+
+
+Sometimes a transitional moment is not 
+stillness between two actions; it can also
+be a more subtle inflexion within an ongoing action.
+There are no wrong intuitions, so go with
+whatever feels like a transitional moment to you.
+
+If you feel you are ready to do the test,
+click on the button below!
+
+
+# PART7
+
+## Was it too fast?
+
+Transitions might be hard to spot on the first try.
+Now that you are familiar with the video,
+would you mind doing it a second time to refine
+your markings? Thank you!
 ```
+
+#### What changes from Study to study
+
+- Video on parts 6 | 8
+
+> Autoplay
+> 
+> Start/End seconds
+> 
+> ###### Dialog title:
+> 
+> Ready?
+> 
+> ###### Dialog content:
+> 
+> Sure, let's go.    | Do the test once more.
+> 
+> ###### Dialog button:
+> 
+> START
+> 
+> ###### On finish:
+> 
+> Navigation > Part7 | Part 9
 
 ---
 
@@ -121,14 +198,12 @@ Tap second time
 
 ## ISSUES
 
-- Explain better
+- Store the videos in the channel from Atlas?
 
-- slide with the explanation
+- Do I need a Live study, or a plyback one?
 
-- Age continuum
+- Check the kind of data I receive (let it be the right one)
 
-- gif, example
+- Process, parse the incoming data
 
-- watch the videos twice?
-
-- agreement small font
+- 
