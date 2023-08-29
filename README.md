@@ -1,22 +1,22 @@
-# EmoTouch™ scripts
+# EmoTouch™ script
 
 Here are some python scripts to parse the output data from the EmoTouch web application.
 
 ---
 
-## Usage
+## Running the script
 
 The files to be processed must be in the folder `input/`
 (whose content is't uploaded to the repo, but keeps the file structure).
 
 1. Activate virtual environment.
-   
+
    ```shell
    source .venv/bin/activate
    ```
 
 2. Run main script:
-   
+
    ```shell
    python emotouch.py
    ```

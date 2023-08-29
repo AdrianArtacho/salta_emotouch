@@ -1,6 +1,7 @@
 # Segmentation Study
 
-Documenting the design and process of the perceptual study on segmentation using (primarily) EmoTouch.
+Documenting the design and process of the perceptual
+study on segmentation using (primarily) EmoTouch.
 
 ---
 
@@ -8,6 +9,30 @@ Documenting the design and process of the perceptual study on segmentation using
 
 - [Trello cards](https://trello.com/c/C966em7v/436-annotation-via-emotouch-method-event-website-explanatory-video-etc)
 - [emoTouch - Researcher Interface (RI)](https://ri.emotouch.de/en/home)
+
+## Public realisation links
+>
+> - Exp2 | castadiva-public <https://pi.emotouch.de/FytONW>
+> - Exp5 | baubo-public <https://pi.emotouch.de/ftwsEZ>
+
+---
+
+## Public page (public_emoTouch)
+
+The web interface with the information, the links and so forth is hosted
+in a public repository
+([`public_emoTouch`](https://bitbucket.org/AdrianArtacho/public_emotouch/src/master/README.md))
+that is a submodule to the main one.
+
+```verbatim
+[external_markdown ttl=120 url="https://bitbucket.org/AdrianArtacho/public_emotouch/raw/HEAD/README.md"]
+```
+
+That repository can be placed in different pages:
+
+[Perceptual Study @ Atlas website](https://the-smooth.space/blog/?page_id=1584)
+
+[Perceptual Study @ Artacho site](https://the-smooth.space/blog/?page_id=1584)
 
 ---
 
@@ -33,7 +58,9 @@ Documenting the design and process of the perceptual study on segmentation using
 
 ## Generate GIF
 
-It would be helpful to have gif(s) on the first page, explaining what a 'choreomusical sequence' looks/sounds like (as well as how to operate the EmoTouch).
+It would be helpful to have gif(s) on the first page,
+explaining what a 'choreomusical sequence' looks/sounds
+like (as well as how to operate the EmoTouch).
 
 - Select video to be used for this urpose (not one of the used in the study)
 
@@ -52,7 +79,7 @@ It would be helpful to have gif(s) on the first page, explaining what a 'choreom
 
 ## Perceptual Study
 
-Welcome to this Ytansitions perceptual study on temporal segmentation, 
+Welcome to this perceptual study on temporal segmentation, 
 which means we attempt to identify the different sequences 
 (segments, blocks, parts) that make up a specific dance or 
 music performance.
@@ -140,28 +167,28 @@ would you mind doing it a second time to refine
 your markings? Thank you!
 ```
 
-#### What changes from Study to study
+### What changes from Study to study
 
 - Video on parts 6 | 8
 
 > Autoplay
-> 
+>
 > Start/End seconds
-> 
+>
 > ###### Dialog title:
-> 
+>
 > Ready?
-> 
+>
 > ###### Dialog content:
-> 
+>
 > Sure, let's go.    | Do the test once more.
-> 
+>
 > ###### Dialog button:
-> 
+>
 > START
-> 
+>
 > ###### On finish:
-> 
+>
 > Navigation > Part7 | Part 9
 
 ---
@@ -180,7 +207,10 @@ your markings? Thank you!
 
 ## Rechtseinräumung TN
 
-Can that be done in one move together with the test
+Can that be done in one move together with the test?
+
+- [x] Participants in the examples?
+- [x] Participants in the videos?
 
 ---
 
