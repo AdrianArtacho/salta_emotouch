@@ -25,6 +25,10 @@ Documenting the design and process of the perceptual study on segmentation using
 
 - [x] Store away in the corresponding (RAW) GDrive folder
 
+- [ ] Upload to youtube (for integration with EmoTouch)
+
+- [ ] Embed in EmoTouch
+
 ---
 
 ## Generate GIF
@@ -168,15 +172,21 @@ your markings? Thank you!
 
 - GENDER
 
-- COMPETENCE (likert scale?)
+- COMPETENCE (likert scale) in Muisc & Dance
 
-- Agree?
+- Agreement
 
 ---
 
 ## Rechtseinräumung TN
 
 Can that be done in one move together with the test
+
+---
+
+## Exporting data
+
+
 
 ---
 
@@ -198,12 +208,6 @@ Tap second time
 
 ## ISSUES
 
-- Store the videos in the channel from Atlas?
-
-- Do I need a Live study, or a plyback one?
-
 - Check the kind of data I receive (let it be the right one)
 
 - Process, parse the incoming data
-
-- 
