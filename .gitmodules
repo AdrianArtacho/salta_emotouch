@@ -1,3 +1,6 @@
 [submodule "gui_abstractions"]
 	path = gui_abstractions
 	url = https://AdrianArtacho@bitbucket.org/smoothspaces/gui_abstractions.git
+[submodule "public_emotouch"]
+	path = public_emotouch
+	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/public_emotouch.git

@@ -186,8 +186,6 @@ Can that be done in one move together with the test
 
 ## Exporting data
 
-
-
 ---
 
 ## Redundance tapping
