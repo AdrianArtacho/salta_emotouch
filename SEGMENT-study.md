@@ -9,11 +9,7 @@ study on segmentation using (primarily) EmoTouch.
 
 - [Trello cards](https://trello.com/c/C966em7v/436-annotation-via-emotouch-method-event-website-explanatory-video-etc)
 - [emoTouch - Researcher Interface (RI)](https://ri.emotouch.de/en/home)
-
-## Public realisation links
->
-> - Exp2 | castadiva-public <https://pi.emotouch.de/FytONW>
-> - Exp5 | baubo-public <https://pi.emotouch.de/ftwsEZ>
+- [TAP-results](https://bitbucket.org/AdrianArtacho/tap-results/src/master/)    q
 
 ---
 
@@ -30,11 +26,25 @@ that is a submodule to the main one.
 
 That repository can be placed in different pages:
 
-[Perceptual Study @ Atlas website](https://the-smooth.space/blog/?page_id=1584)
+- [Perceptual Study @ Atlas website](https://the-smooth.space/blog/?page_id=1584)
 
-[Perceptual Study @ Artacho site](https://the-smooth.space/blog/?page_id=1584)
+- [Perceptual Study @ Artacho site](https://www.artacho.at/perceptual-study/)
 
 ---
+
+## Realisations
+
+`2023-08-30`
+
+- pleyades-public
+- castadiva-public
+- conducting-public
+- huggy-public
+- duo-public
+- piano-public
+- speech-public
+
+--
 
 ## Blur videos
 
@@ -56,19 +66,19 @@ That repository can be placed in different pages:
 
 ---
 
-## Generate GIF
+## Example clips
 
-It would be helpful to have gif(s) on the first page,
+It would be helpful to have looped video clips prior to the experiment,
 explaining what a 'choreomusical sequence' looks/sounds
 like (as well as how to operate the EmoTouch).
 
-- Select video to be used for this urpose (not one of the used in the study)
+- [x] Select video to be used for this urpose (not one of the used in the study)
 
-- Select a few seconds, 10"max
+- [x] Trim a few seconds, 10"max
 
-- Anonymize video, fix audio
+- [x] Anonymize video, fix audio
 
-- Capture screen while using emoTouch
+- [x] upload to emoTouch web
 
 ---
 
@@ -205,9 +215,23 @@ your markings? Thank you!
 
 ---
 
-## Rechtseinräumung TN
+## Rechtseinräumung TN (Study)
 
 Can that be done in one move together with the test?
+Yes, clicking on the `agree and continue` button
+should be enough agreement on the participants'side.
+
+Moreover, anybody can leave the satudy anytime.
+
+---
+
+## Rechtseinräumung Performers
+
+This process and [files](https://drive.google.com/drive/folders/1RWzShhWP8Chmhs_W1yWn9qxJP7beB9Qq)
+are stored in this
+[google drive folder](https://drive.google.com/drive/folders/1RWzShhWP8Chmhs_W1yWn9qxJP7beB9Qq). 
+The [spreadsheet](https://docs.google.com/spreadsheets/d/1mujkVyv5cpwktzWgBz_aErbh31sl8SdhJYVmHDZ-M-w/edit#gid=0)
+where the process is tracked can be accessed [here](https://docs.google.com/spreadsheets/d/1mujkVyv5cpwktzWgBz_aErbh31sl8SdhJYVmHDZ-M-w/edit#gid=0):
 
 - [x] Participants in the examples?
 - [x] Participants in the videos?
@@ -215,6 +239,13 @@ Can that be done in one move together with the test?
 ---
 
 ## Exporting data
+
+--
+
+## Parsing keys
+
+youtube-normal-1
+youtube-normal-2
 
 ---
 
