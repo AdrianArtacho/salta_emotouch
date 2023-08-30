@@ -222,7 +222,16 @@ Can that be done in one move together with the test?
 Yes, clicking on the `agree and continue` button
 should be enough agreement on the participants'side.
 
-Moreover, anybody can leave the satudy anytime.
+Moreover, anybody can leave the study anytime.
+
+### Mailing
+
+[Here](https://docs.google.com/spreadsheets/d/1mujkVyv5cpwktzWgBz_aErbh31sl8SdhJYVmHDZ-M-w/edit#gid=1980044532)
+is where I keep track of the mailings I do.
+
+```markdown
+
+```
 
 ---
 
