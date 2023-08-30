@@ -98,7 +98,7 @@ music performance.
 Later we will show you some examples of
 what those *moments of transition* might look like, but basically
 we will ask you to watch a short video (1-3 minutes max.)
-and tap on `button on screen` each time you feel
+and tap on a button on the screen each time you feel
 there might be a moment of transition.
 
 ### Agreement
