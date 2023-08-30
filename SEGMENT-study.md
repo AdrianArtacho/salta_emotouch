@@ -90,15 +90,16 @@ like (as well as how to operate the EmoTouch).
 ## Perceptual Study
 
 Welcome to this perceptual study on temporal segmentation, 
-which means we attempt to identify the different sequences 
-(segments, blocks, parts) that make up a specific dance or 
+which means we attempt to identify the moments of transition
+between the different segments
+(sequences, phrases, parts) that make up a specific dance or
 music performance.
 
-Later we will go into a more detailed explanation of 
-what those so-called segments can be, but basically
-we will ask you to watch a short video (under 5 minutes)
-while tapping on `button on screen` each time you feel
-there is a moment of transition between two movement sequences.
+Later we will show you some examples of
+what those *moments of transition* might look like, but basically
+we will ask you to watch a short video (1-3 minutes max.)
+and tap on `button on screen` each time you feel
+there might be a moment of transition.
 
 ### Agreement
 
