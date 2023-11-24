@@ -52,12 +52,12 @@ Thumbs.db
 .venv/
 
 # Ignore all the contents of a folder, but keep empy folder structure
-input/*
-!input/.gitkeep
+INPUT/*
+!INPUT/.gitkeep
 
 # Ignore all the contents of a folder, but keep empy folder structure
-output/*
-!output/.gitkeep
+OUTPUT/*
+!OUTPUT/.gitkeep
 
 # Ignore all the contents of a folder, but keep empy folder structure
 wip/*

@@ -7,18 +7,18 @@ Here are some python scripts to parse the output data from the EmoTouch web appl
 ## Running the script
 
 The files to be processed must be in the folder `input/`
-(whose content is't uploaded to the repo, but keeps the file structure).
+(whose content isn't uploaded to the repo, but kept in the file structure).
 
 1. Activate virtual environment.
-
+   
    ```shell
    source .venv/bin/activate
    ```
 
 2. Run main script:
-
+   
    ```shell
-   python emotouch.py
+   python EMOTOUCH.py
    ```
 
 3. Choose `emoTouch` file to process (`TAB`, then click on file).
@@ -26,9 +26,19 @@ The files to be processed must be in the folder `input/`
 4. The resulting `.csv` file, and the respective plot will be saved
    in the `output/` folder.
 
+---
+
 ## Exporting emoTouch session data
 
 Go to the study / session, and click `export`.
+
+1. Go to [EmoTouch Web](https://ri.emotouch.de/en/home)
+
+2. Click on the play ▶ icon
+
+3. Go to *realisations* (click on a specific one)
+
+4. Go to *sessions*
 
 Specifically download the file called **Zeitreihendaten** (*Timeline data*)
 in **csv** format.

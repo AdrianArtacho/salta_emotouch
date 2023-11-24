@@ -183,23 +183,23 @@ your markings? Thank you!
 - Video on parts 6 | 8
 
 > Autoplay
->
+> 
 > Start/End seconds
->
+> 
 > ###### Dialog title:
->
+> 
 > Ready?
->
+> 
 > ###### Dialog content:
->
+> 
 > Sure, let's go.    | Do the test once more.
->
+> 
 > ###### Dialog button:
->
+> 
 > START
->
+> 
 > ###### On finish:
->
+> 
 > Navigation > Part7 | Part 9
 
 ---
