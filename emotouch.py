@@ -1,14 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as pyplot
 import time
-# from pathlib import Path
 import gui_abstractions.gui_choosefile as gui_choosefile
 import os
-# import emo_id
-# import emo_project
-# import emo_dates
-# import emo_lastvalue
-# import json
 import emo_metadata
 import emo_substring
 import emo_plot

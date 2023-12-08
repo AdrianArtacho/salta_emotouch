@@ -1,4 +1,5 @@
-""" All metadata operations...
+""" All metadata operations, specifically
+    storing away the infromation form the different tests.
 """
 import json
 import os
@@ -14,6 +15,7 @@ def main(input_filepath,
          save_as_csv=True,
          json_path = 'METADATA/',
          json_filename = 'metadata',
+         valid_annotation='?',
          verbose=False):
 
     if verbose:
@@ -63,13 +65,13 @@ def main(input_filepath,
             'taps_A': str(taps_A),
             'taps_A_ms': [],
             'taps_B': str(taps_B),
-            'taps_B_ms': []
+            'taps_B_ms': [],
+            'valid_annotation': valid_annotation
         }
     }
 
     # Specify the path to the JSON file
-
-    json_filepath = json_path+json_filename+'.json'  # Specify the correct path to your JSON file
+    json_filepath = json_path+json_filename+'.json'  
 
     # Check if the JSON file exists
     if os.path.exists(json_filepath):
