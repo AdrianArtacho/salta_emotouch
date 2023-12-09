@@ -55,9 +55,11 @@ Thumbs.db
 INPUT/*
 !INPUT/.gitkeep
 
-# Ignore all the contents of a folder, but keep empy folder structure
 OUTPUT/*
 !OUTPUT/.gitkeep
+
+METADATA/*
+!METADATA/cached_info.csv
 
 # Ignore all the contents of a folder, but keep empy folder structure
 wip/*

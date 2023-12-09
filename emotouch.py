@@ -2,10 +2,13 @@ import pandas as pd
 import matplotlib.pyplot as pyplot
 import time
 import gui_abstractions.gui_choosefile as gui_choosefile
-import os
+import gui_abstractions.gui_menu as gui_menu
+# import os
 import emo_metadata
 import emo_substring
 import emo_plot
+import emo_cached
+import emo_stats
 
 
 def main(input_filepath='',
@@ -60,10 +63,41 @@ def main(input_filepath='',
         print("name_substring:", name_substring)
     # exit()
 
-    # Save 'dataframe_first' and 'dataframe_second' as CSV files in the 'OUTPUT/' folder
-    dataframe_first.to_csv(output_path+name_substring+'A.csv', index=False)
-    dataframe_second.to_csv(output_path+name_substring+'B.csv', index=False)
+    #-----------------
+    #### Add a row for the start (0,0)
 
+    # Create a new DataFrame for the row to be added
+    new_row = pd.DataFrame({'created_at_relative': [0], 'x': [0]})
+
+    # Concatenate the new row with the original DataFrame
+    dataframe_first = pd.concat([new_row, dataframe_first], ignore_index=True)
+    dataframe_second = pd.concat([new_row, dataframe_second], ignore_index=True)
+
+    #------------------
+    # Establish the length of the video from cache_info.csv
+    length_ms = emo_cached.main(
+        test_value=name_substring
+        )
+    print("The total length of the test is", length_ms, "ms.")
+
+    # Add a last row to each of the dataframes
+    # Method 1: Using loc
+    dataframe_first.loc[len(dataframe_first)] = [length_ms, '0']
+    dataframe_second.loc[len(dataframe_second)] = [length_ms, '0']
+    # exit()
+    #-------------------
+
+
+    #-------------------
+
+    # Save 'dataframe_first' and 'dataframe_second' as CSV files in the 'OUTPUT/' folder
+    csvname_first = name_substring+'A.csv'
+    dataframe_first.to_csv(output_path+csvname_first, index=False)
+
+    csvname_second = name_substring+'B.csv'
+    dataframe_second.to_csv(output_path+csvname_second, index=False)
+
+    # exit()
     # Optional: Display the resulting DataFrames
     if verbose:
         print("dataframe_first:")
@@ -83,59 +117,48 @@ def main(input_filepath='',
                            verbose=verbose)
     if verbose:
         print("taps_A:", taps_A, "taps_B:", taps_B)
+
+    # exit()
+    #---------------------
+    options_AB = ('A', 'B', 'none', '?')
+
+    # Ask the user to manually choose an annotation (or none)
+    valid_annotation = gui_menu.main(options_AB, 
+                             "info_text", 
+                             "window_title")
+    #---------------------
+    print(taps_A)
+
+    #------------------
+    valid_plotfile = options_AB[3]          # '?'
+    valid_stats = options_AB[3]
+
+    if valid_annotation == options_AB[0]:   # 'A'
+        valid_plotfile = csvname_first
+        valid_stats = emo_stats.main(valid_plotfile, output_path=output_path)
+
+    elif valid_annotation == options_AB[1]: # 'B'
+        valid_plotfile = csvname_second
+        valid_stats = emo_stats.main(valid_plotfile, output_path=output_path)
+
+    elif valid_annotation == options_AB[2]: # 'none'
+        valid_plotfile = 'none'
+        valid_stats = 'none'
+
+    print("Valid annotation:", valid_annotation, ", valid plotfile:", valid_plotfile)
+    # exit()
     #---------------------
     emo_metadata.main(input_filepath,
                       taps_A = taps_A,
                       taps_B = taps_B,
                       json_path=metadata_path,
                       json_filename=metadata_filename,
+                      valid_annotation=valid_annotation,
+                      valid_plotfile=valid_plotfile,
+                      valid_stats=valid_stats,
                       verbose=verbose)
     #----------------------    
-    
-    exit()
 
-    # print("saved as", output_filepath)
-    # print("Rows, columns", sf.shape)
-
-
-
-    frame_value = 1
-    frames = sf['ms']
-    values = sf['value']
-    # print(values)
-    print("len(frames)",len(frames))
-    framerate_rounded = round(len(frames)/ 208)
-    print("framerate_rounded",framerate_rounded)
-
-    # Plot_Frames = False
-    pyplot.plot(sf)
-        
-    annot_height = 1.0
-    delta_height = annot_height*2/len(frames)
-    # print(delta_height)
-    if add_time_labels:
-        for i in frames:
-            # print (i)
-            annot_value = i/framerate_rounded
-            annot_rounded = round(annot_value, 0)
-            # seconds = 52910
-            annot_string = time.strftime("%M:%S", time.gmtime(annot_rounded))
-            pyplot.annotate(str(annot_string), xy = (i-50,annot_height ))
-            annot_height = annot_height-delta_height
-
-    pyplot.axis([0, len(frames), -1.1, 1.1])
-    string_ylabel = 'Value range between '+str(frame_value)+' and '+str(frame_value*(-1))
-    pyplot.ylabel(string_ylabel)
-    string_xlabel = 'frames'
-    pyplot.xlabel(string_xlabel)
-    pyplot.title('Estimated segments: '+str('?'), fontdict=None, loc='center', pad=None)
-    pyplot.yticks([])
-
-    # stem_name = 'Unbennant'
-    # print(stem_name)
-    pyplot.savefig(output_path+tail_nospaces+'_segments.png')
-
-    print("done!")
  
 if __name__ == "__main__":
     main(

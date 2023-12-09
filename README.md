@@ -10,13 +10,13 @@ The files to be processed must be in the folder `INPUT/`
 (whose content isn't uploaded to the repo, but kept in the file structure).
 
 1. Activate virtual environment.
-   
+
    ```shell
    source .venv/bin/activate
    ```
 
 2. Run main script:
-   
+
    ```shell
    python EMOTOUCH.py
    ```
@@ -53,10 +53,32 @@ in **csv** format.
 
 ---
 
-## Metadata
+## Metadata.json
 
-Besides the individual `.csv` and `.png` files corresponding to the segmentation plot, metadata is also stored in the `metadata.json` file.
+Besides the individual `.csv` and `.png` files corresponding to the segmentation
+plot, metadata is also stored in the `metadata.json` file.
 
-If that `metadata.json` file doesn't exist, the script will create it. It is therefore recommended to rename the json file after a session, so that the next one starts with a clean slate.
+If that `metadata.json` file doesn't exist, the script will create it.
+It is therefore recommended to rename the json file after a session,
+so that the next one starts with a clean slate.
 
 ---
+
+## Stats
+
+The main script also generates a wealth of statistical data
+for each of the test annotations.
+These will be stored also in the 'OUTPUT/' folder, with the .json extension.
+
+---
+
+## measure the length of a video WITH PRECISION
+
+You can run the `MOVIE_LENGTH.py` script, with the path to the video file as argument.
+NOTE: The result will be in seconds, but `cached_info.csv` expects it in milliseconds!
+
+---
+
+## METAPLOTS
+
+Running this script will generate different plots.

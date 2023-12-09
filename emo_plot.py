@@ -12,6 +12,7 @@ def main(df,
         #  add_time_labels = False,
          frames_column = 'created_at_relative',
          values_column = 'x',
+         pause_secs = 2,
          verbose=False):
 
     
@@ -35,7 +36,7 @@ def main(df,
     ax.set_ylabel('TAP')
 
     # Invert the y-axis
-    ax.invert_yaxis()
+    # ax.invert_yaxis()
 
     # Get the position of the x-axis label
     x_label_position = ax.xaxis.get_label().get_position()
@@ -49,8 +50,13 @@ def main(df,
     plt.savefig(output_path+name_substring+'.png')
 
     # Show the plot (optional)
-    if verbose:
-        plt.show()
+    # if verbose:
+    # plt.show()
+    
+
+    # Display the plot for 5 seconds
+    plt.show(block=False)
+    plt.pause(pause_secs)
     
     return count_x_one
     

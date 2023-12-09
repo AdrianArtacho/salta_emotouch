@@ -16,6 +16,8 @@ def main(input_filepath,
          json_path = 'METADATA/',
          json_filename = 'metadata',
          valid_annotation='?',
+         valid_plotfile='?',
+         valid_stats='?',
          verbose=False):
 
     if verbose:
@@ -66,7 +68,9 @@ def main(input_filepath,
             'taps_A_ms': [],
             'taps_B': str(taps_B),
             'taps_B_ms': [],
-            'valid_annotation': valid_annotation
+            'valid_annotation': valid_annotation,
+            'valid_plotfile': valid_plotfile,
+            'valid_stats': valid_stats
         }
     }
 
