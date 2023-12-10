@@ -1,19 +1,10 @@
-import subprocess
-import gui_abstractions.gui_browse as gui_browse
+import gui_abstractions.gui_choosefile as gui_choosefile
 
-# def main(filepath):
-#     # filepath = gui_browse.main(params_extensions='.csv')
-#     print(filepath)
+filepath = gui_choosefile.main(['Select movie to find out length from', '','.mov'])
+print(filepath)
 
-def get_length(filename):
-    result = subprocess.run(["ffprobe", "-v", "error", "-show_entries",
-                             "format=duration", "-of",
-                             "default=noprint_wrappers=1:nokey=1", filename],
-        stdout=subprocess.PIPE,
-        stderr=subprocess.STDOUT)
+import pyt_abstractions.media.get_length as get_length
 
-    print(float(result.stdout))
-    return float(result.stdout)
+length = get_length.main(filepath)
 
-if __name__ == "__main__":
-    get_length('/Users/artacho/Downloads/Pleyades_ensayo.mov')
+print(length, "seconds")

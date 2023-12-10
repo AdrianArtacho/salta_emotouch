@@ -10,13 +10,13 @@ The files to be processed must be in the folder `INPUT/`
 (whose content isn't uploaded to the repo, but kept in the file structure).
 
 1. Activate virtual environment.
-
+   
    ```shell
    source .venv/bin/activate
    ```
 
 2. Run main script:
-
+   
    ```shell
    python EMOTOUCH.py
    ```
@@ -40,7 +40,11 @@ Go to the study / session, and click `export`.
 
 4. Go to *sessions*
 
-Specifically download the file called **Zeitreihendaten** (*Timeline data*)
+5. Click on one of the sessions
+
+6. Click on `EXPORT`
+
+Specifically download the file called **Zeitreihendaten** (*Complete Timeline data*)
 in **csv** format.
 
 - Line terminator char `should be Unix/linux/macOS`?
@@ -81,4 +85,4 @@ NOTE: The result will be in seconds, but `cached_info.csv` expects it in millise
 
 ## METAPLOTS
 
-Running this script will generate different plots.
+Running the `METAPLOTS.py` script will generate different plots.
