@@ -45,11 +45,11 @@ Go to the study / session, and click `export`.
 6. Click on `EXPORT`
 
 Specifically download the file called **Zeitreihendaten** (*Complete Timeline data*)
-in **csv** format.
+in **csv** format. Leave all options unchanged!
 
-- Line terminator char `should be Unix/linux/macOS`?
-- Delimiter `Tab?`
-- Quote char: `unchanged`
+- Line terminator char `Windows (CR LF)`
+- Delimiter `Semicolon`
+- Quote char: `"`
 - Decimal separator `Dot`
 - Thousands separator `None`
 

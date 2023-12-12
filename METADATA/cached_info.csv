@@ -1,3 +1,8 @@
 TEST,VIDEOLENGTH_ms,label
-Pleyades-public,191981,test1
-nonsense,111111,test
+Pleyades-public,191981,exp1
+castadiva-public,111111,exp2
+conducting-public,111111,exp3
+huggy-public,111111,exp4
+duo-public,111111,exp5
+piano-public,111111,exp6
+speech-public,111111,exp7

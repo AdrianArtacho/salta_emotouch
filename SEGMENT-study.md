@@ -44,7 +44,9 @@ That repository can be placed in different pages:
 - piano-public
 - speech-public
 
---
+The file with the cahed info about these realisations (including, for example, the precise length) is [cached_info.csv](cached_info.csv).
+
+---
 
 ## Blur videos
 
