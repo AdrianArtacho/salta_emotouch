@@ -7,3 +7,6 @@
 [submodule "gui"]
 	path = gui
 	url = https://AdrianArtacho@bitbucket.org/smoothspaces/gui_abstractions.git
+[submodule "doc"]
+	path = doc
+	url = https://AdrianArtacho@bitbucket.org/smoothspaces/readme_files.git

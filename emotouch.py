@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as pyplot
 import time
-import gui_abstractions.gui_choosefile as gui_choosefile
-import gui_abstractions.gui_menu as gui_menu
+import gui.gui_choosefile as gui_choosefile
+import gui.gui_menu as gui_menu
 # import os
 import emo_metadata
 import emo_substring

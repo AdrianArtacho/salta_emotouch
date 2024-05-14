@@ -4,7 +4,7 @@
 """
 
 import pandas as pd
-import gui_abstractions.gui_menu as gui_menu
+import gui.gui_menu as gui_menu
 
 def main(test_value ='choose',          # Use gui_menu to let the user choose
          column_name='VIDEOLENGTH_ms',
