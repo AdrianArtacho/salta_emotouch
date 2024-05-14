@@ -53,7 +53,7 @@ in **csv** format. Leave all options unchanged!
 - Decimal separator `Dot`
 - Thousands separator `None`
 
-![export-dialog.png](images/emoto_export-dialog.png)
+![export-dialog.png](doc/images/emoto_export-dialog.png)
 
 ---
 
