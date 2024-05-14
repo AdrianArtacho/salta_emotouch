@@ -7,3 +7,6 @@
 [submodule "doc"]
 	path = doc
 	url = https://AdrianArtacho@bitbucket.org/smoothspaces/readme_files.git
+[submodule "pyt"]
+	path = pyt
+	url = https://AdrianArtacho@bitbucket.org/smoothspaces/pyt_abstractions.git
