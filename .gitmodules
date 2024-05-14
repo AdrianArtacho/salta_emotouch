@@ -7,6 +7,6 @@
 [submodule "pyt"]
 	path = pyt
 	url = https://AdrianArtacho@bitbucket.org/smoothspaces/pyt_abstractions.git
-[submodule "public"]
-	path = public
+[submodule "pub"]
+	path = pub
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/public_emotouch.git
