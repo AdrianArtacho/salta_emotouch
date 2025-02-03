@@ -5,7 +5,7 @@
 """
 
 import os
-import emotouch
+import EMOTOUCH
 import time
 
 # Define the directory containing the CSV files
