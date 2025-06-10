@@ -1,8 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as pyplot
 import time
-import gui.gui_choosefile as gui_choosefile
-import gui.gui_menu as gui_menu
+# import gui.gui_choosefile as gui_choosefile
+import gui.gui_browse_t as gui_browse
+import gui.gui_menu_t as gui_menu
 # import os
 import emo_metadata
 import emo_substring
@@ -21,7 +22,7 @@ def main(input_filepath='',
 
     # If no input_filepath argument is passed, the script will ask the user
     if input_filepath == '':
-        filepath_chosen = gui_choosefile.main(['title',       # params_title
+        filepath_chosen = gui_browse.main(['title',       # params_title
                                         input_path,        # params_initbrowser
                                         '.csv'])        # params_extensions
         input_filepath = filepath_chosen

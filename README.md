@@ -10,13 +10,13 @@ The files to be processed must be in the folder `INPUT/`
 (whose content isn't uploaded to the repo, but kept in the file structure).
 
 1. Activate virtual environment.
-   
+
    ```shell
    source .venv/bin/activate
    ```
 
 2. Run main script:
-   
+
    ```shell
    python EMOTOUCH.py
    ```

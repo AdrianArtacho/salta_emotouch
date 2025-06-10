@@ -82,5 +82,131 @@
             "valid_plotfile": "none",
             "valid_stats": "none"
         }
+    },
+    {
+        "castadiva-public_7351": {
+            "session_id": "7351",
+            "project_name": "castadiva-public",
+            "project_dates": [
+                "2023-08-30 15:24:15.313",
+                "2023-09-16 09:36:56.933"
+            ],
+            "subject_gender": "female",
+            "subject_age": "25-34",
+            "subject_music": "7",
+            "subject_dance": "2",
+            "taps_A": "99",
+            "taps_A_ms": [],
+            "taps_B": "80",
+            "taps_B_ms": [],
+            "valid_annotation": "B",
+            "valid_plotfile": "emoTouch_castadiva-public_rawB.csv",
+            "valid_stats": "emoTouch_castadiva-public_rawB.json"
+        }
+    },
+    {
+        "duo-public_7344": {
+            "session_id": "7344",
+            "project_name": "duo-public",
+            "project_dates": [
+                "2023-08-29 21:46:44.660",
+                "2023-09-16 12:00:29.138"
+            ],
+            "subject_gender": "female",
+            "subject_age": "25-34",
+            "subject_music": "7",
+            "subject_dance": "2",
+            "taps_A": "20",
+            "taps_A_ms": [],
+            "taps_B": "24",
+            "taps_B_ms": [],
+            "valid_annotation": "B",
+            "valid_plotfile": "emoTouch_duo-public_rawB.csv",
+            "valid_stats": "emoTouch_duo-public_rawB.json"
+        }
+    },
+    {
+        "huggy-public_7423": {
+            "session_id": "7423",
+            "project_name": "huggy-public",
+            "project_dates": [
+                "2023-09-07 09:25:05.588",
+                "2023-12-15 11:21:43.910"
+            ],
+            "subject_gender": "male",
+            "subject_age": "65-75",
+            "subject_music": "4",
+            "subject_dance": "4",
+            "taps_A": "36",
+            "taps_A_ms": [],
+            "taps_B": "23",
+            "taps_B_ms": [],
+            "valid_annotation": "B",
+            "valid_plotfile": "emoTouch_huggy-public_rawB.csv",
+            "valid_stats": "emoTouch_huggy-public_rawB.json"
+        }
+    },
+    {
+        "Pleyades-public_7348": {
+            "session_id": "7348",
+            "project_name": "Pleyades-public",
+            "project_dates": [
+                "2023-08-30 15:15:13.682",
+                "2023-12-04 13:03:25.064"
+            ],
+            "subject_gender": "female",
+            "subject_age": "25-34",
+            "subject_music": "4",
+            "subject_dance": "4",
+            "taps_A": "207",
+            "taps_A_ms": [],
+            "taps_B": "137",
+            "taps_B_ms": [],
+            "valid_annotation": "B",
+            "valid_plotfile": "emoTouch_Pleyades-public_rawB.csv",
+            "valid_stats": "emoTouch_Pleyades-public_rawB.json"
+        }
+    },
+    {
+        "piano-public_7298": {
+            "session_id": "7298",
+            "project_name": "piano-public",
+            "project_dates": [
+                "2023-09-07 09:27:58.901",
+                "2023-09-16 12:06:08.493"
+            ],
+            "subject_gender": "female",
+            "subject_age": "25-34",
+            "subject_music": "7",
+            "subject_dance": "2",
+            "taps_A": "35",
+            "taps_A_ms": [],
+            "taps_B": "32",
+            "taps_B_ms": [],
+            "valid_annotation": "B",
+            "valid_plotfile": "emoTouch_piano-public_rawB.csv",
+            "valid_stats": "emoTouch_piano-public_rawB.json"
+        }
+    },
+    {
+        "conducting-public_7518": {
+            "session_id": "7518",
+            "project_name": "conducting-public",
+            "project_dates": [
+                "2023-09-14 18:42:27.480",
+                "2023-09-16 09:41:29.355"
+            ],
+            "subject_gender": "female",
+            "subject_age": "25-34",
+            "subject_music": "7",
+            "subject_dance": "2",
+            "taps_A": "15",
+            "taps_A_ms": [],
+            "taps_B": "37",
+            "taps_B_ms": [],
+            "valid_annotation": "B",
+            "valid_plotfile": "emoTouch_conducting-public_rawB.csv",
+            "valid_stats": "emoTouch_conducting-public_rawB.json"
+        }
     }
 ]
