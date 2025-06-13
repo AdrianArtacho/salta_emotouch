@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-def main(df):
+def main(df, project_name='project_name'):
     # Convert 'subject_music' and 'subject_dance' to integers
     df['subject_music'] = df['subject_music'].astype(int)
     df['subject_dance'] = df['subject_dance'].astype(int)
@@ -19,15 +19,30 @@ def main(df):
     # Create a scatter plot
     plt.figure(figsize=(10, 6))
 
-    # Plotting music and dance competence
-    plt.scatter(df['subject_age'], df['subject_music'], color='blue', label='Music Competence')
-    plt.plot(df['subject_age'], df['subject_music'], color='blue', alpha=0.5)
-    plt.scatter(df['subject_age'], df['subject_dance'], color='green', label='Dance Competence')
-    plt.plot(df['subject_age'], df['subject_dance'], color='green', alpha=0.5)
+    # # Plotting music and dance competence
+    # plt.scatter(df['subject_age'], df['subject_music'], color='blue', label='Music Competence')
+    # plt.plot(df['subject_age'], df['subject_music'], color='blue', alpha=0.5)
+    # plt.scatter(df['subject_age'], df['subject_dance'], color='green', label='Dance Competence')
+    # plt.plot(df['subject_age'], df['subject_dance'], color='green', alpha=0.5)
 
-    plt.xlabel('Subject Age')
+    # plt.xlabel('Subject Age')
+    # plt.ylabel('Competence Score')
+    # plt.title('Subjective Competence in Music and Dance by Age')
+
+    # ...existing code...
+
+    # Use the numeric lower bound for plotting
+    plt.scatter(df['age_lower_bound'], df['subject_music'], color='blue', label='Music Competence')
+    plt.plot(df['age_lower_bound'], df['subject_music'], color='blue', alpha=0.5)
+    plt.scatter(df['age_lower_bound'], df['subject_dance'], color='green', label='Dance Competence')
+    plt.plot(df['age_lower_bound'], df['subject_dance'], color='green', alpha=0.5)
+
+    plt.xlabel('Subject Age (lower bound)')
     plt.ylabel('Competence Score')
     plt.title('Subjective Competence in Music and Dance by Age')
+
+    # ...existing code...
+
 
     # Add text annotations for total subjects and gender percentages
     gender_text = '\n'.join([f'{gender}: {percentage:.2f}%' for gender, percentage in gender_percentages.items()])
@@ -35,7 +50,7 @@ def main(df):
     plt.text(0.05, 0.95, stats_text, transform=plt.gca().transAxes, fontsize=9, verticalalignment='top')
 
     plt.legend()
-    plt.savefig('METADATA/subject_competence_by_age.png')
+    plt.savefig('METADATA/'+project_name+'_subject_competence_by_age.png')
     plt.show()
 
 if __name__ == "__main__":

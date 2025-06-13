@@ -7,6 +7,7 @@ import json
 import pandas as pd
 import os
 import matplotlib.pyplot as plt
+import gui.gui_enterstring_t as gui_enterstring
 
 
 def main(project_name,
@@ -17,17 +18,24 @@ def main(project_name,
 
     # Filter the data
     filtered_data = []
-    for entry in data:
-        for key, value in entry.items():
-            if value['project_name'] == project_name and value['valid_stats'] not in ['none', '?']:
-                filtered_data.append(value)
+    for key, value in data.items():
+        if value['project_name'] == project_name and value['valid_stats'] not in ['none', '?']:
+            filtered_data.append(value)
 
     # Convert the filtered data into a DataFrame
     df = pd.DataFrame(filtered_data)
 
+    #--------
+    print(df.head())
+    print(df.columns)
+    # Show only selected columns
+    cols = ['session_id', 'project_name', 'subject_gender', 'subject_age', 'subject_music', 'subject_dance']
+    print(df[cols])
+    # exit()
+
     #------- demographic data
     import meta_demo
-    meta_demo.main(df)
+    meta_demo.main(df, project_name)
 
     #------- Convert 'subject_music' and 'subject_dance' to integers
     df['subject_music'] = df['subject_music'].astype(int)
@@ -75,5 +83,9 @@ def main(project_name,
     
 
 if __name__ == "__main__":
-    main('Pleyades-public',
+    proj_string = gui_enterstring.main("Enter the string that identifies this specific set of experiments.", "String", 
+                                  "Experiment name", default_text='Pleyades-public')
+    # print(proj_string)
+    main(proj_string,
          verbose=True)
+    

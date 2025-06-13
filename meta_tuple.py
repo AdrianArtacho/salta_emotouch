@@ -42,7 +42,7 @@ def main(df, project_name, label_string, video_length_value):
     plt.title(project_name+' ('+str(video_length_value)+' sec.): Comparison of Lengths and Percentages per User')
 
     # Save the plot with a specific filename in the 'METADATA/' folder
-    plt.savefig('METADATA/emo-'+label_string+'-allusers.png')
+    plt.savefig('METADATA/'+project_name+'-'+label_string+'-allusers.png')
 
     plt.show()
 

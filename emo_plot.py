@@ -1,19 +1,22 @@
 """ Plot the results
 """
 
+import matplotlib
+matplotlib.use('TkAgg')
 import matplotlib.pyplot as plt
 import time
+import os
 
 
 def main(df,
          output_path= 'OUTPUT/',
          name_substring = 'test',
-        #  output_path_and_name = 'OUTPUT/test',
-        #  add_time_labels = False,
          frames_column = 'created_at_relative',
          values_column = 'x',
-         pause_secs = 2,
-         verbose=False):
+         pause_secs = 1,
+         verbose=False,
+         window_position=None  # <-- Add this argument
+         ):
 
     
     # Create a figure and axis for the plot
@@ -48,16 +51,33 @@ def main(df,
 
     # Save the plot as a PNG file in the 'OUTPUT' folder
     plt.savefig(output_path+name_substring+'.png')
-
-    # Show the plot (optional)
-    # if verbose:
-    # plt.show()
     
+    # Set window position if requested
+    if window_position is not None:
+        mgr = plt.get_current_fig_manager()
+        try:
+            # TkAgg backend
+            mgr.window.wm_geometry("+{}+{}".format(window_position[0], window_position[1]))
+        except Exception:
+            try:
+                # Qt backend
+                mgr.window.move(window_position[0], window_position[1])
+            except Exception:
+                if verbose:
+                    print("Window positioning not supported for this backend.")
 
     # Display the plot for 5 seconds
     plt.show(block=False)
     plt.pause(pause_secs)
-    
+    plt.close(fig)  # <-- Add this line to close the figure
+
+    # macOS: Return focus to Visual Studio Code after plot
+    try:
+        os.system('''osascript -e 'tell application "Visual Studio Code" to activate' ''')
+    except Exception:
+        if verbose:
+            print("Could not return focus to Visual Studio Code.")
+
     return count_x_one
     
     

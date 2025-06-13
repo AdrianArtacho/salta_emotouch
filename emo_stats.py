@@ -16,7 +16,25 @@ def stats(list_lengths,
           label='?',
           verbose=True):
 
-    ### IF 'list_lengths' IS IN MILLISECONDS:
+    if not list_lengths:
+        if verbose:
+            print(f"No data for {label}. Returning N/A for all statistics.")
+        return {
+            "Average Length": ("N/A", "N/A"),
+            "Median Value": ("N/A", "N/A"),
+            "Standard Deviation": ("N/A", "N/A"),
+            "Minimum Value": ("N/A", "N/A"),
+            "Maximum Value": ("N/A", "N/A"),
+            "Range": ("N/A", "N/A"),
+            "Variance": ("N/A", "N/A"),
+            "Percentiles": {
+                "25th": "N/A",
+                "50th": "N/A",
+                "75th": "N/A"
+            },
+            "Total Sum": "N/A"
+        }
+
     list_in_seconds = [element / 1000 for element in list_lengths]
 
     #-------Calculate statistics: SEG_
@@ -83,16 +101,17 @@ def main(csvname,
     
     #-------total_taps
     total_taps = df['x'].sum()
-    print("total_taps:",total_taps)
+    # print("total_taps:",total_taps)
 
     #-------TE per minute (not so useful, not a power of 10)
     TEpm = total_taps * 60. / total_length
-    print("TEpm:", TEpm, "TEE / minute")
+    print("total_taps:",total_taps, "TEpm:", TEpm, "TEE / minute")
 
     #-------Remove start/end markers (first/last rows)
     # Remove the first and last rows from the DataFrame
     df_modified = df.iloc[1:-1]
-    print(df_modified)
+    if verbose:
+        print(df_modified)
 
     #-------EXTRACT lengths of segments/windows
     # Initialize lists
@@ -113,8 +132,9 @@ def main(csvname,
             list_windows.append(current_row['created_at_relative'] - previous_row['created_at_relative'])
 
     # Print the results
-    print("list_segments:", list_segments)
-    print("list_windows:", list_windows)
+    if verbose:
+        print("list_segments:", list_segments)
+        print("list_windows:", list_windows)
 
     #------- Create the list 'list_ici'
     list_ici = []
@@ -125,7 +145,8 @@ def main(csvname,
         list_ici.append(list_segments[i] + window_average)
 
     # Print the resulting list
-    print("list_ici:", list_ici)
+    if verbose:
+        print("list_ici:", list_ici)
 
     #------- Create the list 'list_dev' (deviations in length from the previous ICI)
     list_dev = []
@@ -136,17 +157,18 @@ def main(csvname,
         list_dev.append(difference)
     
     # Print the resulting list
-    print("list_dev:", list_dev)
+    if verbose:
+        print("list_dev:", list_dev)
 
     #------- Generate dictionaries
     
-    seg_dict = stats(list_segments, total_length, label='segments')
+    seg_dict = stats(list_segments, total_length, label='segments', verbose=verbose)
     # print(seg_dict)
-    win_dict = stats(list_windows, total_length, label='windows')
+    win_dict = stats(list_windows, total_length, label='windows', verbose=verbose)
     # print(seg_dict)
-    ici_dict = stats(list_ici, total_length, label='ici')
+    ici_dict = stats(list_ici, total_length, label='ici', verbose=verbose)
     # print(seg_dict)
-    dev_dict = stats(list_dev, total_length, label='dev')
+    dev_dict = stats(list_dev, total_length, label='dev', verbose=verbose)
     # print(seg_dict)
 
     # exit()
@@ -157,7 +179,8 @@ def main(csvname,
                        'dev': dev_dict}
 
     # Print the dictionary with indentation for better readability
-    print(json.dumps(statistics_dict, indent=4))
+    if verbose:
+        print(json.dumps(statistics_dict, indent=4))
 
     # Remove '.csv' and add '.json' extension
     json_filename = csvname.rsplit('.', 1)[0] + '.json'

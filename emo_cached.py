@@ -4,7 +4,7 @@
 """
 
 import pandas as pd
-import gui.gui_menu as gui_menu
+import gui.gui_menu_t as gui_menu
 
 def main(test_value ='choose',          # Use gui_menu to let the user choose
          column_name='VIDEOLENGTH_ms',
@@ -30,10 +30,12 @@ def main(test_value ='choose',          # Use gui_menu to let the user choose
                                    "Which test does the file ?? correspond to?", 
                                    "Which test are we processing?")
     else:
-        print("test_value", test_value)
+        if verbose:
+            print("test_value", test_value)
         # Split the string at the dash and take the first part
         extracted_part = '-'.join(test_value.split('_')[1].split('-')[:2])
-        print("extracted_part", extracted_part)
+        if verbose:
+            print("extracted_part", extracted_part)
         test_value = extracted_part
     # exit()
 

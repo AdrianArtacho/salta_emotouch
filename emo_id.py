@@ -8,7 +8,7 @@ def main(input_filepath,
          verbose=False):
     
     if verbose:
-        print("seesion id", input_filepath) 
+        print("session id", input_filepath) 
 
     df = pd.read_csv(input_filepath, 
                      sep=';', 

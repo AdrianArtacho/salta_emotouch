@@ -1,212 +1,857 @@
-[
-    {
-        "Pleyades-public_8211": {
-            "session_id": "8211",
-            "project_name": "Pleyades-public",
-            "project_dates": [
-                "2023-11-03 20:26:22.376",
-                "2023-11-03 20:30:44.655"
-            ],
-            "subject_gender": "non-binary / other",
-            "subject_age": "18-24",
-            "subject_music": "3",
-            "subject_dance": "2",
-            "taps_A": "14",
-            "taps_A_ms": [],
-            "taps_B": "0",
-            "taps_B_ms": [],
-            "valid_annotation": "A",
-            "valid_plotfile": "emoTouch_Pleyades-public_8211A.csv",
-            "valid_stats": "emoTouch_Pleyades-public_8211A.json"
-        }
+{
+    "Pleyades-public_7348": {
+        "session_id": "7348",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "35-44",
+        "subject_music": "7",
+        "subject_dance": "6",
+        "taps_A": "22",
+        "taps_A_ms": [],
+        "taps_B": "15",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7348B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7348B.json"
     },
-    {
-        "Pleyades-public_7424": {
-            "session_id": "7424",
-            "project_name": "Pleyades-public",
-            "project_dates": [
-                "2023-09-07 10:17:16.802",
-                "2023-09-07 10:27:34.427"
-            ],
-            "subject_gender": "female",
-            "subject_age": "65-75",
-            "subject_music": "2",
-            "subject_dance": "2",
-            "taps_A": "9",
-            "taps_A_ms": [],
-            "taps_B": "6",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_Pleyades-public_7424B.csv",
-            "valid_stats": "emoTouch_Pleyades-public_7424B.json"
-        }
+    "Pleyades-public_7352": {
+        "session_id": "7352",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "25-34",
+        "subject_music": "4",
+        "subject_dance": "2",
+        "taps_A": "11",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7352A.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7352A.json"
     },
-    {
-        "Pleyades-public_7383": {
-            "session_id": "7383",
-            "project_name": "Pleyades-public",
-            "project_dates": [
-                "2023-09-02 18:54:27.936",
-                "2023-09-02 19:03:33.768"
-            ],
-            "subject_gender": "male",
-            "subject_age": "35-44",
-            "subject_music": "5",
-            "subject_dance": "3",
-            "taps_A": "9",
-            "taps_A_ms": [],
-            "taps_B": "15",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_Pleyades-public_7383B.csv",
-            "valid_stats": "emoTouch_Pleyades-public_7383B.json"
-        }
+    "Pleyades-public_7354": {
+        "session_id": "7354",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "7",
+        "subject_dance": "5",
+        "taps_A": "13",
+        "taps_A_ms": [],
+        "taps_B": "11",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7354B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7354B.json"
     },
-    {
-        "Pleyades-public_7539": {
-            "session_id": "7539",
-            "project_name": "Pleyades-public",
-            "project_dates": [
-                "2023-09-15 17:35:04.909",
-                "2023-09-15 17:37:37.756"
-            ],
-            "subject_gender": "male",
-            "subject_age": "35-44",
-            "subject_music": "1",
-            "subject_dance": "1",
-            "taps_A": "1",
-            "taps_A_ms": [],
-            "taps_B": "0",
-            "taps_B_ms": [],
-            "valid_annotation": "none",
-            "valid_plotfile": "none",
-            "valid_stats": "none"
-        }
+    "Pleyades-public_7357": {
+        "session_id": "7357",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "6",
+        "subject_dance": "2",
+        "taps_A": "8",
+        "taps_A_ms": [],
+        "taps_B": "6",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7357B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7357B.json"
     },
-    {
-        "castadiva-public_7351": {
-            "session_id": "7351",
-            "project_name": "castadiva-public",
-            "project_dates": [
-                "2023-08-30 15:24:15.313",
-                "2023-09-16 09:36:56.933"
-            ],
-            "subject_gender": "female",
-            "subject_age": "25-34",
-            "subject_music": "7",
-            "subject_dance": "2",
-            "taps_A": "99",
-            "taps_A_ms": [],
-            "taps_B": "80",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_castadiva-public_rawB.csv",
-            "valid_stats": "emoTouch_castadiva-public_rawB.json"
-        }
+    "Pleyades-public_7358": {
+        "session_id": "7358",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "35-44",
+        "subject_music": "1",
+        "subject_dance": "1",
+        "taps_A": "3",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7358A.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7358A.json"
     },
-    {
-        "duo-public_7344": {
-            "session_id": "7344",
-            "project_name": "duo-public",
-            "project_dates": [
-                "2023-08-29 21:46:44.660",
-                "2023-09-16 12:00:29.138"
-            ],
-            "subject_gender": "female",
-            "subject_age": "25-34",
-            "subject_music": "7",
-            "subject_dance": "2",
-            "taps_A": "20",
-            "taps_A_ms": [],
-            "taps_B": "24",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_duo-public_rawB.csv",
-            "valid_stats": "emoTouch_duo-public_rawB.json"
-        }
+    "Pleyades-public_7360": {
+        "session_id": "7360",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "45-54",
+        "subject_music": "7",
+        "subject_dance": "1",
+        "taps_A": "4",
+        "taps_A_ms": [],
+        "taps_B": "6",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7360B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7360B.json"
     },
-    {
-        "huggy-public_7423": {
-            "session_id": "7423",
-            "project_name": "huggy-public",
-            "project_dates": [
-                "2023-09-07 09:25:05.588",
-                "2023-12-15 11:21:43.910"
-            ],
-            "subject_gender": "male",
-            "subject_age": "65-75",
-            "subject_music": "4",
-            "subject_dance": "4",
-            "taps_A": "36",
-            "taps_A_ms": [],
-            "taps_B": "23",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_huggy-public_rawB.csv",
-            "valid_stats": "emoTouch_huggy-public_rawB.json"
-        }
+    "Pleyades-public_7362": {
+        "session_id": "7362",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "10",
+        "taps_A_ms": [],
+        "taps_B": "6",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7362B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7362B.json"
     },
-    {
-        "Pleyades-public_7348": {
-            "session_id": "7348",
-            "project_name": "Pleyades-public",
-            "project_dates": [
-                "2023-08-30 15:15:13.682",
-                "2023-12-04 13:03:25.064"
-            ],
-            "subject_gender": "female",
-            "subject_age": "25-34",
-            "subject_music": "4",
-            "subject_dance": "4",
-            "taps_A": "207",
-            "taps_A_ms": [],
-            "taps_B": "137",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_Pleyades-public_rawB.csv",
-            "valid_stats": "emoTouch_Pleyades-public_rawB.json"
-        }
+    "Pleyades-public_7372": {
+        "session_id": "7372",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "35-44",
+        "subject_music": "5",
+        "subject_dance": "6",
+        "taps_A": "10",
+        "taps_A_ms": [],
+        "taps_B": "15",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7372B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7372B.json"
     },
-    {
-        "piano-public_7298": {
-            "session_id": "7298",
-            "project_name": "piano-public",
-            "project_dates": [
-                "2023-09-07 09:27:58.901",
-                "2023-09-16 12:06:08.493"
-            ],
-            "subject_gender": "female",
-            "subject_age": "25-34",
-            "subject_music": "7",
-            "subject_dance": "2",
-            "taps_A": "35",
-            "taps_A_ms": [],
-            "taps_B": "32",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_piano-public_rawB.csv",
-            "valid_stats": "emoTouch_piano-public_rawB.json"
-        }
+    "Pleyades-public_7374": {
+        "session_id": "7374",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "25-34",
+        "subject_music": "7",
+        "subject_dance": "2",
+        "taps_A": "51",
+        "taps_A_ms": [],
+        "taps_B": "32",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7374B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7374B.json"
     },
-    {
-        "conducting-public_7518": {
-            "session_id": "7518",
-            "project_name": "conducting-public",
-            "project_dates": [
-                "2023-09-14 18:42:27.480",
-                "2023-09-16 09:41:29.355"
-            ],
-            "subject_gender": "female",
-            "subject_age": "25-34",
-            "subject_music": "7",
-            "subject_dance": "2",
-            "taps_A": "15",
-            "taps_A_ms": [],
-            "taps_B": "37",
-            "taps_B_ms": [],
-            "valid_annotation": "B",
-            "valid_plotfile": "emoTouch_conducting-public_rawB.csv",
-            "valid_stats": "emoTouch_conducting-public_rawB.json"
-        }
+    "Pleyades-public_7375": {
+        "session_id": "7375",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "4",
+        "subject_dance": "3",
+        "taps_A": "4",
+        "taps_A_ms": [],
+        "taps_B": "5",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7375B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7375B.json"
+    },
+    "Pleyades-public_7379": {
+        "session_id": "7379",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "45-54",
+        "subject_music": "3",
+        "subject_dance": "5",
+        "taps_A": "4",
+        "taps_A_ms": [],
+        "taps_B": "9",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7379B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7379B.json"
+    },
+    "Pleyades-public_7383": {
+        "session_id": "7383",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "5",
+        "subject_dance": "3",
+        "taps_A": "9",
+        "taps_A_ms": [],
+        "taps_B": "15",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7383B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7383B.json"
+    },
+    "Pleyades-public_7424": {
+        "session_id": "7424",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "65-75",
+        "subject_music": "2",
+        "subject_dance": "2",
+        "taps_A": "9",
+        "taps_A_ms": [],
+        "taps_B": "6",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7424B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7424B.json"
+    },
+    "Pleyades-public_7428": {
+        "session_id": "7428",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "65-75",
+        "subject_music": "2",
+        "subject_dance": "3",
+        "taps_A": "5",
+        "taps_A_ms": [],
+        "taps_B": "7",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7428B.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7428B.json"
+    },
+    "Pleyades-public_7439": {
+        "session_id": "7439",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "25-34",
+        "subject_music": "1",
+        "subject_dance": "2",
+        "taps_A": "6",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7439A.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7439A.json"
+    },
+    "Pleyades-public_7499": {
+        "session_id": "7499",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "male",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "3",
+        "taps_A": "4",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7499A.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7499A.json"
+    },
+    "Pleyades-public_7516": {
+        "session_id": "7516",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "17",
+        "taps_A_ms": [],
+        "taps_B": "4",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7516A.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session7516A.json"
+    },
+    "Pleyades-public_8211": {
+        "session_id": "8211",
+        "project_name": "Pleyades-public",
+        "project_dates": [
+            "1970-01-01 00:59:58.600",
+            "1970-03-01 00:44:04.600"
+        ],
+        "subject_gender": "non-binary / other",
+        "subject_age": "18-24",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "14",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session8211A.csv",
+        "valid_stats": "emoTouch_Pleyades-public_Auto-generated (100 ms)_session8211A.json"
+    },
+    "castadiva-public_7351": {
+        "session_id": "7351",
+        "project_name": "castadiva-public",
+        "project_dates": [
+            "2023-08-30 15:24:15.313",
+            "2023-09-16 09:36:56.933"
+        ],
+        "subject_gender": "female",
+        "subject_age": "35-44",
+        "subject_music": "7",
+        "subject_dance": "6",
+        "taps_A": "15",
+        "taps_A_ms": [],
+        "taps_B": "16",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_castadiva-public_raw_session7351B.csv",
+        "valid_stats": "emoTouch_castadiva-public_raw_session7351B.json"
+    },
+    "castadiva-public_7355": {
+        "session_id": "7355",
+        "project_name": "castadiva-public",
+        "project_dates": [
+            "2023-08-30 15:24:15.313",
+            "2023-09-16 09:36:56.933"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "7",
+        "subject_dance": "5",
+        "taps_A": "17",
+        "taps_A_ms": [],
+        "taps_B": "9",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_castadiva-public_raw_session7355B.csv",
+        "valid_stats": "emoTouch_castadiva-public_raw_session7355B.json"
+    },
+    "castadiva-public_7380": {
+        "session_id": "7380",
+        "project_name": "castadiva-public",
+        "project_dates": [
+            "2023-08-30 15:24:15.313",
+            "2023-09-16 09:36:56.933"
+        ],
+        "subject_gender": "male",
+        "subject_age": "45-54",
+        "subject_music": "3",
+        "subject_dance": "5",
+        "taps_A": "11",
+        "taps_A_ms": [],
+        "taps_B": "8",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_castadiva-public_raw_session7380B.csv",
+        "valid_stats": "emoTouch_castadiva-public_raw_session7380B.json"
+    },
+    "castadiva-public_7440": {
+        "session_id": "7440",
+        "project_name": "castadiva-public",
+        "project_dates": [
+            "2023-08-30 15:24:15.313",
+            "2023-09-16 09:36:56.933"
+        ],
+        "subject_gender": "male",
+        "subject_age": "25-34",
+        "subject_music": "1",
+        "subject_dance": "1",
+        "taps_A": "5",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_castadiva-public_raw_session7440A.csv",
+        "valid_stats": "emoTouch_castadiva-public_raw_session7440A.json"
+    },
+    "castadiva-public_7517": {
+        "session_id": "7517",
+        "project_name": "castadiva-public",
+        "project_dates": [
+            "2023-08-30 15:24:15.313",
+            "2023-09-16 09:36:56.933"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "6",
+        "taps_A_ms": [],
+        "taps_B": "7",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_castadiva-public_raw_session7517B.csv",
+        "valid_stats": "emoTouch_castadiva-public_raw_session7517B.json"
+    },
+    "castadiva-public_7533": {
+        "session_id": "7533",
+        "project_name": "castadiva-public",
+        "project_dates": [
+            "2023-08-30 15:24:15.313",
+            "2023-09-16 09:36:56.933"
+        ],
+        "subject_gender": "female",
+        "subject_age": "65-75",
+        "subject_music": "2",
+        "subject_dance": "4",
+        "taps_A": "8",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_castadiva-public_raw_session7533A.csv",
+        "valid_stats": "emoTouch_castadiva-public_raw_session7533A.json"
+    },
+    "castadiva-public_7543": {
+        "session_id": "7543",
+        "project_name": "castadiva-public",
+        "project_dates": [
+            "2023-08-30 15:24:15.313",
+            "2023-09-16 09:36:56.933"
+        ],
+        "subject_gender": "female",
+        "subject_age": "25-34",
+        "subject_music": "7",
+        "subject_dance": "2",
+        "taps_A": "37",
+        "taps_A_ms": [],
+        "taps_B": "40",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_castadiva-public_raw_session7543B.csv",
+        "valid_stats": "emoTouch_castadiva-public_raw_session7543B.json"
+    },
+    "conducting-public_7518": {
+        "session_id": "7518",
+        "project_name": "conducting-public",
+        "project_dates": [
+            "1970-01-01 00:59:59.100",
+            "1970-01-01 01:02:25.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "1",
+        "taps_A_ms": [],
+        "taps_B": "5",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_conducting-public_Auto-generated (100 ms)_session7518B.csv",
+        "valid_stats": "emoTouch_conducting-public_Auto-generated (100 ms)_session7518B.json"
+    },
+    "conducting-public_7544": {
+        "session_id": "7544",
+        "project_name": "conducting-public",
+        "project_dates": [
+            "1970-01-01 00:59:59.100",
+            "1970-01-01 01:02:25.600"
+        ],
+        "subject_gender": "female",
+        "subject_age": "25-34",
+        "subject_music": "7",
+        "subject_dance": "2",
+        "taps_A": "14",
+        "taps_A_ms": [],
+        "taps_B": "32",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_conducting-public_Auto-generated (100 ms)_session7544B.csv",
+        "valid_stats": "emoTouch_conducting-public_Auto-generated (100 ms)_session7544B.json"
+    },
+    "duo-public_7520": {
+        "session_id": "7520",
+        "project_name": "duo-public",
+        "project_dates": [
+            "2023-08-29 21:46:44.660",
+            "2023-09-16 12:00:29.138"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "8",
+        "taps_A_ms": [],
+        "taps_B": "9",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_duo-public_raw_session7520B.csv",
+        "valid_stats": "emoTouch_duo-public_raw_session7520B.json"
+    },
+    "duo-public_7536": {
+        "session_id": "7536",
+        "project_name": "duo-public",
+        "project_dates": [
+            "2023-08-29 21:46:44.660",
+            "2023-09-16 12:00:29.138"
+        ],
+        "subject_gender": "female",
+        "subject_age": "65-75",
+        "subject_music": "2",
+        "subject_dance": "3",
+        "taps_A": "1",
+        "taps_A_ms": [],
+        "taps_B": "4",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_duo-public_raw_session7536B.csv",
+        "valid_stats": "emoTouch_duo-public_raw_session7536B.json"
+    },
+    "duo-public_7546": {
+        "session_id": "7546",
+        "project_name": "duo-public",
+        "project_dates": [
+            "2023-08-29 21:46:44.660",
+            "2023-09-16 12:00:29.138"
+        ],
+        "subject_gender": "female",
+        "subject_age": "25-34",
+        "subject_music": "7",
+        "subject_dance": "2",
+        "taps_A": "11",
+        "taps_A_ms": [],
+        "taps_B": "11",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_duo-public_raw_session7546B.csv",
+        "valid_stats": "emoTouch_duo-public_raw_session7546B.json"
+    },
+    "piano-public_7298": {
+        "session_id": "7298",
+        "project_name": "piano-public",
+        "project_dates": [
+            "1970-01-01 01:00:00.000",
+            "1970-01-01 01:06:54.200"
+        ],
+        "subject_gender": "female",
+        "subject_age": "35-44",
+        "subject_music": "7",
+        "subject_dance": "6",
+        "taps_A": "16",
+        "taps_A_ms": [],
+        "taps_B": "12",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_piano-public_Auto-generated (100 ms)_session7298B.csv",
+        "valid_stats": "emoTouch_piano-public_Auto-generated (100 ms)_session7298B.json"
+    },
+    "piano-public_7521": {
+        "session_id": "7521",
+        "project_name": "piano-public",
+        "project_dates": [
+            "1970-01-01 01:00:00.000",
+            "1970-01-01 01:06:54.200"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "12",
+        "taps_A_ms": [],
+        "taps_B": "10",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_piano-public_Auto-generated (100 ms)_session7521B.csv",
+        "valid_stats": "emoTouch_piano-public_Auto-generated (100 ms)_session7521B.json"
+    },
+    "piano-public_7537": {
+        "session_id": "7537",
+        "project_name": "piano-public",
+        "project_dates": [
+            "1970-01-01 01:00:00.000",
+            "1970-01-01 01:06:54.200"
+        ],
+        "subject_gender": "female",
+        "subject_age": "65-75",
+        "subject_music": "2",
+        "subject_dance": "3",
+        "taps_A": "0",
+        "taps_A_ms": [],
+        "taps_B": "7",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_piano-public_Auto-generated (100 ms)_session7537B.csv",
+        "valid_stats": "emoTouch_piano-public_Auto-generated (100 ms)_session7537B.json"
+    },
+    "piano-public_7548": {
+        "session_id": "7548",
+        "project_name": "piano-public",
+        "project_dates": [
+            "1970-01-01 01:00:00.000",
+            "1970-01-01 01:06:54.200"
+        ],
+        "subject_gender": "female",
+        "subject_age": "25-34",
+        "subject_music": "7",
+        "subject_dance": "2",
+        "taps_A": "7",
+        "taps_A_ms": [],
+        "taps_B": "3",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_piano-public_Auto-generated (100 ms)_session7548B.csv",
+        "valid_stats": "emoTouch_piano-public_Auto-generated (100 ms)_session7548B.json"
+    },
+    "speech-public_7342": {
+        "session_id": "7342",
+        "project_name": "speech-public",
+        "project_dates": [
+            "2023-08-29 12:30:19.536",
+            "2023-09-16 12:08:03.467"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "4",
+        "subject_dance": "4",
+        "taps_A": "12",
+        "taps_A_ms": [],
+        "taps_B": "3",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_speech-public_raw_session7342A.csv",
+        "valid_stats": "emoTouch_speech-public_raw_session7342A.json"
+    },
+    "speech-public_7343": {
+        "session_id": "7343",
+        "project_name": "speech-public",
+        "project_dates": [
+            "2023-08-29 12:30:19.536",
+            "2023-09-16 12:08:03.467"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "6",
+        "subject_dance": "3",
+        "taps_A": "22",
+        "taps_A_ms": [],
+        "taps_B": "11",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_speech-public_raw_session7343B.csv",
+        "valid_stats": "emoTouch_speech-public_raw_session7343B.json"
+    },
+    "speech-public_7346": {
+        "session_id": "7346",
+        "project_name": "speech-public",
+        "project_dates": [
+            "2023-08-29 12:30:19.536",
+            "2023-09-16 12:08:03.467"
+        ],
+        "subject_gender": "male",
+        "subject_age": "35-44",
+        "subject_music": "2",
+        "subject_dance": "3",
+        "taps_A": "3",
+        "taps_A_ms": [],
+        "taps_B": "1",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_speech-public_raw_session7346A.csv",
+        "valid_stats": "emoTouch_speech-public_raw_session7346A.json"
+    },
+    "speech-public_7524": {
+        "session_id": "7524",
+        "project_name": "speech-public",
+        "project_dates": [
+            "2023-08-29 12:30:19.536",
+            "2023-09-16 12:08:03.467"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "10",
+        "taps_A_ms": [],
+        "taps_B": "19",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_speech-public_raw_session7524B.csv",
+        "valid_stats": "emoTouch_speech-public_raw_session7524B.json"
+    },
+    "speech-public_7538": {
+        "session_id": "7538",
+        "project_name": "speech-public",
+        "project_dates": [
+            "2023-08-29 12:30:19.536",
+            "2023-09-16 12:08:03.467"
+        ],
+        "subject_gender": "female",
+        "subject_age": "65-75",
+        "subject_music": "2",
+        "subject_dance": "3",
+        "taps_A": "0",
+        "taps_A_ms": [],
+        "taps_B": "3",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_speech-public_raw_session7538B.csv",
+        "valid_stats": "emoTouch_speech-public_raw_session7538B.json"
+    },
+    "speech-public_7549": {
+        "session_id": "7549",
+        "project_name": "speech-public",
+        "project_dates": [
+            "2023-08-29 12:30:19.536",
+            "2023-09-16 12:08:03.467"
+        ],
+        "subject_gender": "female",
+        "subject_age": "25-34",
+        "subject_music": "7",
+        "subject_dance": "2",
+        "taps_A": "5",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_speech-public_raw_session7549A.csv",
+        "valid_stats": "emoTouch_speech-public_raw_session7549A.json"
+    },
+    "huggy-public_7423": {
+        "session_id": "7423",
+        "project_name": "huggy-public",
+        "project_dates": [
+            "1970-01-01 00:59:59.400",
+            "1970-01-01 01:09:35.000"
+        ],
+        "subject_gender": "female",
+        "subject_age": "35-44",
+        "subject_music": "7",
+        "subject_dance": "6",
+        "taps_A": "7",
+        "taps_A_ms": [],
+        "taps_B": "7",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_huggy-public_Auto-generated (100 ms)_session7423B.csv",
+        "valid_stats": "emoTouch_huggy-public_Auto-generated (100 ms)_session7423B.json"
+    },
+    "huggy-public_7519": {
+        "session_id": "7519",
+        "project_name": "huggy-public",
+        "project_dates": [
+            "1970-01-01 00:59:59.400",
+            "1970-01-01 01:09:35.000"
+        ],
+        "subject_gender": "female",
+        "subject_age": "55-64",
+        "subject_music": "3",
+        "subject_dance": "2",
+        "taps_A": "3",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_huggy-public_Auto-generated (100 ms)_session7519A.csv",
+        "valid_stats": "emoTouch_huggy-public_Auto-generated (100 ms)_session7519A.json"
+    },
+    "huggy-public_7535": {
+        "session_id": "7535",
+        "project_name": "huggy-public",
+        "project_dates": [
+            "1970-01-01 00:59:59.400",
+            "1970-01-01 01:09:35.000"
+        ],
+        "subject_gender": "female",
+        "subject_age": "65-75",
+        "subject_music": "2",
+        "subject_dance": "3",
+        "taps_A": "0",
+        "taps_A_ms": [],
+        "taps_B": "4",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_huggy-public_Auto-generated (100 ms)_session7535B.csv",
+        "valid_stats": "emoTouch_huggy-public_Auto-generated (100 ms)_session7535B.json"
+    },
+    "huggy-public_7545": {
+        "session_id": "7545",
+        "project_name": "huggy-public",
+        "project_dates": [
+            "1970-01-01 00:59:59.400",
+            "1970-01-01 01:09:35.000"
+        ],
+        "subject_gender": "female",
+        "subject_age": "25-34",
+        "subject_music": "7",
+        "subject_dance": "2",
+        "taps_A": "13",
+        "taps_A_ms": [],
+        "taps_B": "12",
+        "taps_B_ms": [],
+        "valid_annotation": "B",
+        "valid_plotfile": "emoTouch_huggy-public_Auto-generated (100 ms)_session7545B.csv",
+        "valid_stats": "emoTouch_huggy-public_Auto-generated (100 ms)_session7545B.json"
+    },
+    "huggy-public_9007": {
+        "session_id": "9007",
+        "project_name": "huggy-public",
+        "project_dates": [
+            "1970-01-01 00:59:59.400",
+            "1970-01-01 01:09:35.000"
+        ],
+        "subject_gender": "male",
+        "subject_age": "65-75",
+        "subject_music": "4",
+        "subject_dance": "4",
+        "taps_A": "13",
+        "taps_A_ms": [],
+        "taps_B": "0",
+        "taps_B_ms": [],
+        "valid_annotation": "A",
+        "valid_plotfile": "emoTouch_huggy-public_Auto-generated (100 ms)_session9007A.csv",
+        "valid_stats": "emoTouch_huggy-public_Auto-generated (100 ms)_session9007A.json"
     }
-]
+}

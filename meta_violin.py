@@ -46,7 +46,7 @@ def main(df, project_name, label_string, video_length_value):
     plt.xlabel('Project Name')
 
     # Save the plot with a specific filename in the 'METADATA/' folder
-    plt.savefig('METADATA/emo-'+label_string+'-aggregated_violin.png')
+    plt.savefig('METADATA/'+project_name+'-'+label_string+'-aggregated_violin.png')
 
     plt.show()
 

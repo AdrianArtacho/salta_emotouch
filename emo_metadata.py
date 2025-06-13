@@ -10,39 +10,49 @@ import emo_lastvalue
 import pandas as pd
 
 def main(input_filepath,
-         taps_A = 0,
-         taps_B = 0,
+         taps_A=0,
+         taps_B=0,
          save_as_csv=True,
-         json_path = 'METADATA/',
-         json_filename = 'metadata',
+         json_path='METADATA/',
+         json_filename='metadata',
          valid_annotation='?',
          valid_plotfile='?',
          valid_stats='?',
+         session_id=None,
+         project_name=None,
+         subject_gender=None,
+         subject_age=None,
+         subject_music=None,
+         subject_dance=None,
          verbose=False):
+    
+    print("mtdt|",session_id, project_name, subject_gender, subject_age, subject_music, subject_dance)
+
+    # Only extract from file if not provided
+    if session_id is None:
+        session_id = emo_id.main(input_filepath)
+    if project_name is None:
+        project_name = emo_project.main(input_filepath)
+    # if subject_gender is None:
+    #     subject_gender = ... # fallback extraction
 
     if verbose:
         print("taps_A:", taps_A, "taps_B:", taps_B)
-#----------------------
-    session_id = emo_id.main(input_filepath)
-    if verbose:
         print("session_id:", session_id)
-    #----------------------
-    project_name = emo_project.main(input_filepath)
-    if verbose:
         print("project_name:", project_name)
-    #----------------------
+#----------------------
     project_dates = emo_dates.main(input_filepath)
     if verbose:
         print("project_dates:", project_dates)
     #----------------------
-    subject_gender = emo_lastvalue.main(input_filepath, 
-                                        tag_string = "category-gender")
-    subject_age = emo_lastvalue.main(input_filepath, 
-                                        tag_string = 'RANGE-ages')
-    subject_music = emo_lastvalue.main(input_filepath, 
-                                        tag_string = "LIKERT-music")
-    subject_dance = emo_lastvalue.main(input_filepath, 
-                                        tag_string = "LIKERT-dance")
+    # subject_gender = emo_lastvalue.main(input_filepath, 
+    #                                     tag_string = "category-gender")
+    # subject_age = emo_lastvalue.main(input_filepath, 
+    #                                     tag_string = 'RANGE-ages')
+    # subject_music = emo_lastvalue.main(input_filepath, 
+    #                                     tag_string = "LIKERT-music")
+    # subject_dance = emo_lastvalue.main(input_filepath, 
+    #                                     tag_string = "LIKERT-dance")
     
     if verbose:
         print("subject_gender:", subject_gender)
@@ -79,44 +89,33 @@ def main(input_filepath,
 
     # Check if the JSON file exists
     if os.path.exists(json_filepath):
-        # Read the existing JSON file into a Python list
+        # Read the existing JSON file into a Python dict
         with open(json_filepath, 'r') as json_file:
-            existing_data = json.load(json_file)
+            try:
+                existing_data = json.load(json_file)
+                if not isinstance(existing_data, dict):
+                    existing_data = {}
+            except json.JSONDecodeError:
+                existing_data = {}
     else:
-        # If the file doesn't exist, create an empty list
-        existing_data = []
+        # If the file doesn't exist, create an empty dict
+        existing_data = {}
 
-    # if verbose:
-        # print("existing_data:", existing_data)
-
-    # Initialize a flag to track whether the key was found
-    key_found = False
-
-    # Iterate through the existing data to check for a record with the same key
-    for i, record in enumerate(existing_data):
-        if new_record_key in record:
-            # Update the existing record with the new data
-            existing_data[i][new_record_key] = new_record_data[new_record_key]
-            key_found = True
-            break
-
-    # If the key was not found, add a new record
-    if not key_found:
-        existing_data.append(new_record_data)
+    # Update or add the new record
+    existing_data[new_record_key] = new_record_data[new_record_key]
 
     # Write the updated data back to the JSON file
     with open(json_filepath, 'w') as json_file:
         json.dump(existing_data, json_file, indent=4)
 
-    # exit()
     #------------------
     csv_filepath = json_path+json_filename+'.csv'
     if save_as_csv:
-        # Convert the list of dictionaries to a Pandas DataFrame
-        df = pd.DataFrame(existing_data)
+        # Convert the dict to a Pandas DataFrame
+        df = pd.DataFrame.from_dict(existing_data, orient='index')
 
         # Save the DataFrame as a CSV file
-        df.to_csv(csv_filepath, index=False)
+        df.to_csv(csv_filepath)
 
         # Optional: Display the DataFrame
         # if verbose:
