@@ -3,7 +3,7 @@
 	url = https://AdrianArtacho@bitbucket.org/smoothspaces/gui_abstractions.git
 [submodule "doc"]
 	path = doc
-	url = https://AdrianArtacho@bitbucket.org/smoothspaces/readme_files.git
+url=https://github.com/AdrianArtacho/salta_docs.git
 [submodule "pyt"]
 	path = pyt
 	url = https://AdrianArtacho@bitbucket.org/smoothspaces/pyt_abstractions.git
