@@ -10,3 +10,6 @@ url=https://github.com/AdrianArtacho/salta_pyt.git
 [submodule "pub"]
 	path = pub
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/public_emotouch.git
+[submodule "TPP"]
+	path = TPP
+	url = https://github.com/AdrianArtacho/salta_tpp.git
