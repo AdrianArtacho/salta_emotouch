@@ -4,6 +4,16 @@ Here are some python scripts to parse the output data from the EmoTouch web appl
 
 ---
 
+## Installation
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+---
+
 ## Running the script
 
 The files to be processed must be in the folder `INPUT/`
@@ -11,13 +21,13 @@ The files to be processed must be in the folder `INPUT/`
 
 1. Activate virtual environment.
 
-   ```shell
+   ```bash
    source .venv/bin/activate
    ```
 
 2. Run main script:
 
-   ```shell
+   ```bash
    python EMOTOUCH.py
    ```
 

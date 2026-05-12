@@ -6,7 +6,7 @@ url=https://github.com/AdrianArtacho/salta_gui.git
 url=https://github.com/AdrianArtacho/salta_docs.git
 [submodule "pyt"]
 	path = pyt
-	url = https://AdrianArtacho@bitbucket.org/smoothspaces/pyt_abstractions.git
+url=https://github.com/AdrianArtacho/salta_pyt.git
 [submodule "pub"]
 	path = pub
 	url = https://AdrianArtacho@bitbucket.org/AdrianArtacho/public_emotouch.git
